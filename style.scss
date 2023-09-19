@@ -1,0 +1,13 @@
+.image-container{
+  opacity: 0.5;
+  cursor: pointer;
+  img{
+    object-fit: cover !important;
+  }
+  &.active{
+    opacity: 1;
+  }
+}
+.main-container img{
+  object-fit: cover !important;
+}
